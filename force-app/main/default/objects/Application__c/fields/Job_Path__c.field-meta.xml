@@ -32,14 +32,14 @@
                 <label>Technical/cultural Interviews</label>
             </value>
             <value>
-                <fullName>Background Check</fullName>
-                <default>false</default>
-                <label>Background Check</label>
-            </value>
-            <value>
                 <fullName>Offer</fullName>
                 <default>false</default>
                 <label>Offer</label>
+            </value>
+            <value>
+                <fullName>Background Check</fullName>
+                <default>false</default>
+                <label>Background Check</label>
             </value>
         </valueSetDefinition>
     </valueSet>
