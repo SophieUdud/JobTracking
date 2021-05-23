@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Application__c</entityName>
+    <fieldName>Job_Path__c</fieldName>
+    <masterLabel>Job Pathway</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Comments__c</fieldNames>
+        <info>&lt;p&gt;Always wait until after an offer to give references.&lt;/p&gt;&lt;p&gt;Make sure any info entered into HireRight or other background checking companies is saved and recorded in the cloud for future reference.&lt;/p&gt;</info>
+        <picklistValueName>Background Check</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Contact_At_Hiring_Company__c</fieldNames>
+        <fieldNames>Comments__c</fieldNames>
+        <fieldNames>Start_Date__c</fieldNames>
+        <fieldNames>Location__c</fieldNames>
+        <info>&lt;p&gt;Sometimes the hiring manager is the technical interview and one step away from being hired. On the other hand, this stage is often similar to the recruiter discussion. They are seeing if you are human, normal, and someone they can get along with in the job. They don&amp;#39;t want to be managing someone odd. As a result this stage often is a quick pass off to the technical interviews.&lt;/p&gt;</info>
+        <picklistValueName>Hiring Manager interview</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Comments__c</fieldNames>
+        <fieldNames>Start_Date__c</fieldNames>
+        <info>&lt;p&gt;An offer has a certain time frame before you accept. You should also use this time to take a break between jobs if you can. Spend a week practicing bodhicitta and preparing for your next role.&lt;/p&gt;</info>
+        <picklistValueName>Offer</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Calculated_Annual_Salary__c</fieldNames>
+        <fieldNames>Location__c</fieldNames>
+        <fieldNames>Hiring_Company__c</fieldNames>
+        <fieldNames>Contact_At_Hiring_Company__c</fieldNames>
+        <fieldNames>Comments__c</fieldNames>
+        <info>&lt;p&gt;Maintain personal power with recruiters. Do not give personal references until after an offer. Avoid jumping through hoops for them. Recruiters will drain you if you let them. Set clear boundaries, expectations, and get to the next stage as quickly as possible.&lt;/p&gt;</info>
+        <picklistValueName>Recruiter phone screenings</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>Source__c</fieldNames>
+        <fieldNames>Position__c</fieldNames>
+        <fieldNames>Date_Applied__c</fieldNames>
+        <fieldNames>Recruiting_Company__c</fieldNames>
+        <picklistValueName>Send Application</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Contact_At_Hiring_Company__c</fieldNames>
+        <fieldNames>Comments__c</fieldNames>
+        <info>&lt;p&gt;For developer work, you should expect 3 one hour technical sessions mixed with cultural questions. These sessions are usually done by 3 different people most likely from the same team you will be joining. Once the 3 people meet in private to discuss how you did, they will make a decision with the hiring manager on whether or not to send and offer. &lt;/p&gt;</info>
+        <picklistValueName>Technical/cultural Interviews</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

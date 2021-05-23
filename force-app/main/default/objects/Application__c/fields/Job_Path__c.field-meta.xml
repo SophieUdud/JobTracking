@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Path__c</fullName>
+    <externalId>false</externalId>
+    <label>Job Path</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Send Application</fullName>
+                <default>false</default>
+                <label>Send Application</label>
+            </value>
+            <value>
+                <fullName>Recruiter phone screenings</fullName>
+                <default>false</default>
+                <label>Recruiter phone screenings</label>
+            </value>
+            <value>
+                <fullName>Hiring Manager interview</fullName>
+                <default>false</default>
+                <label>Hiring Manager interview</label>
+            </value>
+            <value>
+                <fullName>Technical/cultural Interviews</fullName>
+                <default>false</default>
+                <label>Technical/cultural Interviews</label>
+            </value>
+            <value>
+                <fullName>Offer</fullName>
+                <default>false</default>
+                <label>Offer</label>
+            </value>
+            <value>
+                <fullName>Background Check</fullName>
+                <default>false</default>
+                <label>Background Check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
