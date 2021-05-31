@@ -10,7 +10,6 @@
         <picklistValueName>Background Check</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <fieldNames>Contact_At_Hiring_Company__c</fieldNames>
         <fieldNames>Comments__c</fieldNames>
         <fieldNames>Start_Date__c</fieldNames>
         <fieldNames>Location__c</fieldNames>
@@ -27,7 +26,6 @@
         <fieldNames>Calculated_Annual_Salary__c</fieldNames>
         <fieldNames>Location__c</fieldNames>
         <fieldNames>Hiring_Company__c</fieldNames>
-        <fieldNames>Contact_At_Hiring_Company__c</fieldNames>
         <fieldNames>Comments__c</fieldNames>
         <info>&lt;p&gt;Maintain personal power with recruiters. Do not give personal references until after an offer. Avoid jumping through hoops for them. Recruiters will drain you if you let them. Set clear boundaries, expectations, and get to the next stage as quickly as possible.&lt;/p&gt;</info>
         <picklistValueName>Recruiter phone screenings</picklistValueName>
@@ -41,7 +39,6 @@
         <picklistValueName>Send Application</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <fieldNames>Contact_At_Hiring_Company__c</fieldNames>
         <fieldNames>Comments__c</fieldNames>
         <info>&lt;p&gt;For developer work, you should expect 3 one hour technical sessions mixed with cultural questions. These sessions are usually done by 3 different people most likely from the same team you will be joining. Once the 3 people meet in private to discuss how you did, they will make a decision with the hiring manager on whether or not to send and offer. &lt;/p&gt;</info>
         <picklistValueName>Technical/cultural Interviews</picklistValueName>
