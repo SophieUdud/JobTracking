@@ -6,42 +6,46 @@
     <masterLabel>Job Pathway</masterLabel>
     <pathAssistantSteps>
         <fieldNames>Comments__c</fieldNames>
-        <info>&lt;p&gt;Always wait until after an offer to give references.&lt;/p&gt;&lt;p&gt;Make sure any info entered into HireRight or other background checking companies is saved and recorded in the cloud for future reference.&lt;/p&gt;</info>
+        <fieldNames>Name</fieldNames>
+        <info>&lt;p&gt;AWESOME! Welcome to a few last considerations:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Always wait until after an offer to give references.&lt;/li&gt;&lt;li&gt;Any personal info entered into HireRight or another background checking company must be saved for your future reference.&lt;/li&gt;&lt;li&gt;Make sure any criminal background is reported before a background check is done.&lt;/li&gt;&lt;li&gt;If you were caught with marijuana 20 years ago as a teenager, and forget to say something, the offer might be rescinded.&lt;/li&gt;&lt;li&gt;Sometimes a company will rescind the offer if the budget shrinks or a better candidate appears at the last moment.&lt;/li&gt;&lt;li&gt;Keep applying to other jobs!&lt;/li&gt;&lt;/ul&gt;</info>
         <picklistValueName>Background Check</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
         <fieldNames>Comments__c</fieldNames>
-        <fieldNames>Start_Date__c</fieldNames>
-        <fieldNames>Location__c</fieldNames>
-        <info>&lt;p&gt;Sometimes the hiring manager is the technical interview and one step away from being hired. On the other hand, this stage is often similar to the recruiter discussion. They are seeing if you are human, normal, and someone they can get along with in the job. They don&amp;#39;t want to be managing someone odd. As a result this stage often is a quick pass off to the technical interviews.&lt;/p&gt;</info>
-        <picklistValueName>Hiring Manager interview</picklistValueName>
+        <fieldNames>Name</fieldNames>
+        <info>&lt;p&gt;Great work reaching the hiring manager!&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sometimes this stage is similar to the recruiter discussion.&lt;/li&gt;&lt;li&gt;The hiring manager is seeing if you are human, normal, and manageable.&lt;/li&gt;&lt;li&gt;They do not want to be managing someone odd.&lt;/li&gt;&lt;li&gt;The hiring manager often gives a quick pass off to the technical &amp;amp; cultural stage.&lt;/li&gt;&lt;li&gt;Sometimes you never meet the hiring manager until after the technical interviews.&lt;/li&gt;&lt;li&gt;Sometimes the hiring manager gives the technical &amp;amp; cultural interview.&lt;/li&gt;&lt;li&gt;Sometime the hiring manager will hire you after one interview.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Hiring Manager</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
         <fieldNames>Comments__c</fieldNames>
         <fieldNames>Start_Date__c</fieldNames>
-        <info>&lt;p&gt;An offer has a certain time frame before you accept. You should also use this time to take a break between jobs if you can. Spend a week practicing bodhicitta and preparing for your next role.&lt;/p&gt;</info>
+        <fieldNames>Name</fieldNames>
+        <info>&lt;p&gt;Keep your cool and never appear desperate:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Always appear fully employed.&lt;/li&gt;&lt;li&gt;Tell them you need to give two weeks notice or indicate you have responsibilities you need to wrap-up. &lt;/li&gt;&lt;li&gt;Demonstrate commitment and respect for the job you are leaving. &lt;/li&gt;&lt;li&gt;Once you pass the background check and land the job, you are often able to create a grace period between jobs.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Try to practice Bodhicitta and prepare for your next role if you are afforded a one or two week break.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
         <picklistValueName>Offer</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <fieldNames>Calculated_Annual_Salary__c</fieldNames>
-        <fieldNames>Location__c</fieldNames>
         <fieldNames>Hiring_Company__c</fieldNames>
+        <fieldNames>Location__c</fieldNames>
+        <fieldNames>Hourly_Rate__c</fieldNames>
+        <fieldNames>Employment_Type__c</fieldNames>
         <fieldNames>Comments__c</fieldNames>
-        <info>&lt;p&gt;Maintain personal power with recruiters. Do not give personal references until after an offer. Avoid jumping through hoops for them. Recruiters will drain you if you let them. Set clear boundaries, expectations, and get to the next stage as quickly as possible.&lt;/p&gt;</info>
-        <picklistValueName>Recruiter phone screenings</picklistValueName>
+        <info>&lt;p&gt;Maintain personal power with recruiters:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Do not give personal references until after an offer.&lt;/li&gt;&lt;li&gt;Avoid jumping through hoops for them.&lt;/li&gt;&lt;li&gt;Recruiters will drain you if you let them.&lt;/li&gt;&lt;li&gt;Set clear boundaries, expectations, and get to the next stage as quickly as possible.&lt;/li&gt;&lt;li&gt;You may go through two recruiters at a recruiting firm and one at the hiring company before reaching the next stage.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Recruiters</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <fieldNames>Name</fieldNames>
-        <fieldNames>Source__c</fieldNames>
         <fieldNames>Position__c</fieldNames>
+        <fieldNames>Job_Post_Link__c</fieldNames>
         <fieldNames>Date_Applied__c</fieldNames>
         <fieldNames>Recruiting_Company__c</fieldNames>
+        <fieldNames>Comments__c</fieldNames>
+        <info>&lt;p&gt;Great job, keep submitting!&lt;/p&gt;&lt;ul&gt;&lt;li&gt;After your application is received, your journey has just begun.&lt;/li&gt;&lt;li&gt;The upcoming stages are often far different than reality.&lt;/li&gt;&lt;li&gt;These stages do provide you a basic framework for what to expect.&lt;/li&gt;&lt;/ul&gt;</info>
         <picklistValueName>Send Application</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
         <fieldNames>Comments__c</fieldNames>
-        <info>&lt;p&gt;For developer work, you should expect 3 one hour technical sessions mixed with cultural questions. These sessions are usually done by 3 different people most likely from the same team you will be joining. Once the 3 people meet in private to discuss how you did, they will make a decision with the hiring manager on whether or not to send and offer. &lt;/p&gt;</info>
-        <picklistValueName>Technical/cultural Interviews</picklistValueName>
+        <fieldNames>Name</fieldNames>
+        <info>&lt;p&gt;You are almost there! Expect variation during the following stage:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Developers expect 3 independent 1 hour technical/cultural interviews.&lt;/li&gt;&lt;li&gt;The 3 sessions are usually done by 3 different people.&lt;/li&gt;&lt;li&gt;Often your future teammates do these interviews.&lt;/li&gt;&lt;li&gt;Afterwards the 3 people will meet with the hiring manager to make a decision.&lt;/li&gt;&lt;li&gt;For non-technical roles there is a similar process.&lt;/li&gt;&lt;li&gt;Technical roles may have a take home challenge.&lt;/li&gt;&lt;li&gt;You might skip this stage and have a couple friendly meetings with future teammates if the hiring manager wants you hired immediately.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Technical/Cultural</picklistValueName>
     </pathAssistantSteps>
     <recordTypeName>__MASTER__</recordTypeName>
 </PathAssistant>

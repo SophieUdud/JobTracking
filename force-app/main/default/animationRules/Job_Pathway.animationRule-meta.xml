@@ -8,5 +8,5 @@
     <recordTypeName>__MASTER__</recordTypeName>
     <sobjectType>Application__c</sobjectType>
     <targetField>Job_Path__c</targetField>
-    <targetFieldChangeToValues>Offer</targetFieldChangeToValues>
+    <targetFieldChangeToValues>Offer,Background Check</targetFieldChangeToValues>
 </AnimationRule>

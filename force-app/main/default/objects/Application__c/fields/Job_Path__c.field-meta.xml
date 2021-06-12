@@ -17,19 +17,19 @@
                 <label>Send Application</label>
             </value>
             <value>
-                <fullName>Recruiter phone screenings</fullName>
+                <fullName>Recruiters</fullName>
                 <default>false</default>
-                <label>Recruiter phone screenings</label>
+                <label>Recruiters</label>
             </value>
             <value>
-                <fullName>Hiring Manager interview</fullName>
+                <fullName>Hiring Manager</fullName>
                 <default>false</default>
-                <label>Hiring Manager interview</label>
+                <label>Hiring Manager</label>
             </value>
             <value>
-                <fullName>Technical/cultural Interviews</fullName>
+                <fullName>Technical/Cultural</fullName>
                 <default>false</default>
-                <label>Technical/cultural Interviews</label>
+                <label>Technical/Cultural</label>
             </value>
             <value>
                 <fullName>Offer</fullName>
