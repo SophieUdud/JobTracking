@@ -7,6 +7,10 @@
     "apexSettings": {
       "enableApexCtrlImplicitWithSharingPref": true,
       "enableAuraApexCtrlAuthUserAccessCheckPref": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true,
+      "canOverrideAutoPathCollapseWithUserPref" : true
     }
   }
 }
