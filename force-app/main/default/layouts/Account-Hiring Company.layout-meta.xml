@@ -30,10 +30,6 @@
                 <behavior>Edit</behavior>
                 <field>Type</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Active__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -146,9 +142,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewEvent</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>FeedItem.RypplePost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.LinkPost</quickActionName>
