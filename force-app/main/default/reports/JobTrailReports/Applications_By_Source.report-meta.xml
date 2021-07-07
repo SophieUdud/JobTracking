@@ -10,6 +10,9 @@
         <field>Application__c.Position__c</field>
     </columns>
     <columns>
+        <field>Application__c.Job_Path__c</field>
+    </columns>
+    <columns>
         <field>Application__c.Location__c</field>
     </columns>
     <columns>

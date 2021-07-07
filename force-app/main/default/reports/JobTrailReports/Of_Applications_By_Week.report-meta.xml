@@ -4,7 +4,7 @@
         <calculatedFormula>RowCount</calculatedFormula>
         <datatype>number</datatype>
         <developerName>FORMULA1</developerName>
-        <isActive>true</isActive>
+        <isActive>false</isActive>
         <isCrossBlock>false</isCrossBlock>
         <masterLabel>Record Count</masterLabel>
         <scale>2</scale>
@@ -17,6 +17,9 @@
     </columns>
     <columns>
         <field>Application__c.Position__c</field>
+    </columns>
+    <columns>
+        <field>Application__c.Job_Path__c</field>
     </columns>
     <columns>
         <field>Application__c.Location__c</field>
