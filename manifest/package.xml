@@ -1,36 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
+        <members>Job_Pathway</members>
+        <name>AnimationRule</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
+        <members>Job_Trail</members>
+        <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
+        <members>Application_Record_Page</members>
+        <members>Job_Trail_UtilityBar</members>
+        <name>FlexiPage</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
+        <members>Account-Hiring Company</members>
+        <members>Account-Recruiting Company</members>
+        <members>Application__c-Application Layout</members>   
+        <members>Contact-Contact At Hiring Company</members>
+        <members>Contact-Recruiter</members>
+        <members>Task-Task Layout</members>
+        <name>Layout</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
+        <members>Application__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
+        <members>Account.Comments__c</members>
+        <members>Contact.Application__c</members>
+        <members>Contact.Comments__c</members>
+        <members>Contact.Profile_link__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
+        <members>Account.Hiring_Company</members>
+        <members>Account.Recruiting_Company</members>
+        <members>Contact.Contact_At_Hiring_Company</members>
+        <members>Contact.Recruiter</members>
+        <name>RecordType</name>
     </types>
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>Job_Pathway</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>NewTask</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>unfiled$public/Applications_By_Job_Path_Stage_By_Week</members>
+        <members>unfiled$public/Applications_By_Source</members>
+        <members>unfiled$public/Events_By_Week</members>
+        <members>unfiled$public/Of_Applications_By_Week</members>
+        <members>unfiled$public/Tasks_By_Week</members>
+        <name>Report</name>
+    </types>
+    <!-- <types>
+        <members>JobTrailReports</members>
+        <name>Report</name>
+    </types> -->
+    <types>
+        <members>EnhancedNotes</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>Application__c</members>
+        <name>CustomTab</name>
     </types>
     <version>51.0</version>
 </Package>
