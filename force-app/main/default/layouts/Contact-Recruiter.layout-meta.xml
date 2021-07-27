@@ -189,6 +189,15 @@
         </relatedContentItems>
     </relatedContent>
     <relatedLists>
+        <fields>NAME</fields>
+        <fields>Application__c.Hiring_Company__c</fields>
+        <fields>Application__c.Recruiting_Company__c</fields>
+        <fields>Application__c.Job_Post_Link__c</fields>
+        <fields>Application__c.Position__c</fields>
+        <fields>Application__c.Job_Path__c</fields>
+        <relatedList>Contacts_or_Applications__c.Contacts__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>OPPORTUNITY.NAME</fields>
         <fields>OPPORTUNITY.STAGE_NAME</fields>
         <fields>OPPORTUNITY.AMOUNT</fields>
@@ -250,7 +259,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1F000004S7XH</masterLabel>
+        <masterLabel>00h1D000003jSCf</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
