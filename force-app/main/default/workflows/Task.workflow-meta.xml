@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert</fullName>
+        <description>Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/JobTaskReminderClassicEmail</template>
+    </alerts>
+    <alerts>
+        <fullName>Reminder_to_job_seeker_that_they_have_a_task_due</fullName>
+        <description>Reminder to job seeker that they have a task due</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/JobTaskReminderClassicEmail</template>
+    </alerts>
+    <rules>
+        <fullName>Task Email Reminder</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Task.IsReminderSet</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Email reminder set to remind job seeker about a task</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Reminder_to_job_seeker_that_they_have_a_task_due</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Task.ReminderDateTime</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>
