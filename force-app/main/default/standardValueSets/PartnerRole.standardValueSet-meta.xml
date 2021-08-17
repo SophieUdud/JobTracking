@@ -2,10 +2,10 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>HIring Company</fullName>
+        <fullName>Hiring Company</fullName>
         <default>false</default>
-        <label>HIring Company</label>
-        <reverseRole>HIring Company</reverseRole>
+        <label>Hiring Company</label>
+        <reverseRole>Hiring Company</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Recruiting Company</fullName>
