@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>HIring Company</fullName>
+        <default>false</default>
+        <label>HIring Company</label>
+        <reverseRole>HIring Company</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Recruiting Company</fullName>
+        <default>false</default>
+        <label>Recruiting Company</label>
+        <reverseRole>Recruiting Company</reverseRole>
+    </standardValue>
+</StandardValueSet>
