@@ -19,11 +19,13 @@
         <members>Application__c-Application Layout</members>   
         <members>Contact-Contact At Hiring Company</members>
         <members>Contact-Recruiter</members>
+        <members>Contacts_or_Applications__c-Contacts or Applications Layout</members>
         <members>Task-Task Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Application__c</members>
+        <members>Contacts_or_Applications__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -53,20 +55,22 @@
         <name>QuickAction</name>
     </types>
     <types>
-        <members>unfiled$public/Applications_By_Job_Path_Stage_By_Week</members>
-        <members>unfiled$public/Applications_By_Source</members>
-        <members>unfiled$public/Events_By_Week</members>
-        <members>unfiled$public/Of_Applications_By_Week</members>
-        <members>unfiled$public/Tasks_By_Week</members>
-        <name>Report</name>
-    </types>
-    <!-- <types>
+        <members>JobTrailReports/Applications_By_Job_Path_Stage_By_Week</members>
+        <members>JobTrailReports/Applications_By_Source</members>
+        <members>JobTrailReports/Events_By_Week</members>
+        <members>JobTrailReports/Of_Applications_By_Week</members>
+        <members>JobTrailReports/Tasks_By_Week</members>
+        <members>JobTrailReports/Weekly_Interviews_By_Interview_Type</members>
         <members>JobTrailReports</members>
         <name>Report</name>
-    </types> -->
+    </types>
     <types>
         <members>EnhancedNotes</members>
         <name>Settings</name>
+    </types>
+    <types>
+        <members>PartnerRole</members>
+        <name>StandardValueSet</name>
     </types>
     <types>
         <members>Application__c</members>
