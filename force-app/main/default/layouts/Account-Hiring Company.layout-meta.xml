@@ -165,9 +165,9 @@
     </relatedContent>
     <relatedLists>
         <fields>FULL_NAME</fields>
-        <fields>CONTACT.TITLE</fields>
+        <fields>CONTACT.PHONE3</fields>
         <fields>CONTACT.EMAIL</fields>
-        <fields>CONTACT.PHONE1</fields>
+        <fields>Profile_link__c</fields>
         <relatedList>RelatedContactList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -192,12 +192,11 @@
         <relatedList>RelatedHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>Recruiting_Company__c</fields>
+        <fields>Position__c</fields>
         <fields>NAME</fields>
+        <fields>Job_Post_Link__c</fields>
         <relatedList>Application__c.Hiring_Company__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Application__c.Recruiting_Company__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>ACCOUNT.NAME</fields>
@@ -218,7 +217,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0t000002rGPH</masterLabel>
+        <masterLabel>00h5500000365AR</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
