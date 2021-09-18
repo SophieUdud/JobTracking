@@ -4,7 +4,7 @@ export default class parentbarchart extends LightningElement {
     chartConfiguration;
     @wire(getOpportunities)
     getOpportunities({ error, data }) {
-        let resume = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","> - 29"]
+        var resumes = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","resume10"];
         if (error) {
             this.error = error;
             this.chartConfiguration = undefined;
@@ -39,19 +39,27 @@ export default class parentbarchart extends LightningElement {
                 data: {
                     labels: resumes,
                     datasets: [{
-                      label: 'Employee',
+                      label: 'Send Application',
                       backgroundColor: "#caf270",
                       data: [12, 59, 5, 56, 58,12, 59, 87, 45],
                     }, {
-                      label: 'Engineer',
+                      label: 'Recruiters',
                       backgroundColor: "#45c490",
                       data: [12, 59, 5, 56, 58,12, 59, 85, 23],
                     }, {
-                      label: 'Government',
+                      label: 'Hiring Manager',
                       backgroundColor: "#008d93",
                       data: [12, 59, 5, 56, 58,12, 59, 65, 51],
                     }, {
-                      label: 'Political parties',
+                        label: 'Technical/Cultural',
+                        backgroundColor: "#008d93",
+                        data: [12, 59, 5, 56, 58,12, 59, 65, 51],
+                      }, {
+                        label: 'Offer',
+                        backgroundColor: "#008d93",
+                        data: [12, 59, 5, 56, 58,12, 59, 65, 51],
+                      }, {                                             
+                      label: 'Background Check',
                       backgroundColor: "#2e5468",
                       data: [12, 59, 5, 56, 58, 12, 59, 12, 74],
                     }],
