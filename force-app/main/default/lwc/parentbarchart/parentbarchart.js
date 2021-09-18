@@ -4,6 +4,7 @@ export default class parentbarchart extends LightningElement {
     chartConfiguration;
     @wire(getOpportunities)
     getOpportunities({ error, data }) {
+        let resume = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","> - 29"]
         if (error) {
             this.error = error;
             this.chartConfiguration = undefined;
@@ -36,7 +37,7 @@ export default class parentbarchart extends LightningElement {
                
                 // },
                 data: {
-                    labels: ["<  1","1 - 2","3 - 4","5 - 9","10 - 14","15 - 19","20 - 24","25 - 29","> - 29"],
+                    labels: resumes,
                     datasets: [{
                       label: 'Employee',
                       backgroundColor: "#caf270",
