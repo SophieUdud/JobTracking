@@ -39,29 +39,29 @@ export default class parentbarchart extends LightningElement {
                 data: {
                     labels: resumes,
                     datasets: [{
-                      label: 'Send Application',
-                      backgroundColor: "#caf270",
-                      data: [12, 59, 5, 56, 58,12, 59, 87, 45],
+                        label: 'Send Application',
+                        backgroundColor: "#de425b",
+                        data: [10, 20, 15, 10, 12, 15, 10, 10, 15],
                     }, {
-                      label: 'Recruiters',
-                      backgroundColor: "#45c490",
-                      data: [12, 59, 5, 56, 58,12, 59, 85, 23],
+                        label: 'Recruiters',
+                        backgroundColor: "#f58055",
+                        data: [8, 18, 13, 8, 10, 13, 8, 8, 13],
                     }, {
-                      label: 'Hiring Manager',
-                      backgroundColor: "#008d93",
-                      data: [12, 59, 5, 56, 58,12, 59, 65, 51],
+                        label: 'Hiring Manager',
+                        backgroundColor: "#feba65",
+                        data: [6, 16, 11, 6, 9, 12, 5, 7, 10],
                     }, {
                         label: 'Technical/Cultural',
-                        backgroundColor: "#008d93",
-                        data: [12, 59, 5, 56, 58,12, 59, 65, 51],
+                        backgroundColor: "#fff18f",
+                        data: [4, 14, 9, 5, 8, 10, 4, 6, 9],
                       }, {
                         label: 'Offer',
-                        backgroundColor: "#008d93",
-                        data: [12, 59, 5, 56, 58,12, 59, 65, 51],
+                        backgroundColor: "#afd07c",
+                        data: [3, 2, 1, 4, 7, 9, 3, 5, 8],
                       }, {                                             
                       label: 'Background Check',
-                      backgroundColor: "#2e5468",
-                      data: [12, 59, 5, 56, 58, 12, 59, 12, 74],
+                      backgroundColor: "#64ad73",
+                      data: [2, 1, 0, 2, 5, 7, 2, 1, 0],
                     }],
                   },                
                 options: {
