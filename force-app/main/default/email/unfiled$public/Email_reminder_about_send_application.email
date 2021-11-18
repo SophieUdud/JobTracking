@@ -1,0 +1,8 @@
+Hi,
+
+It's time to follow up on your job application. 
+
+Hiring Company: {!Application__c.Hiring_Company__c}
+Position: {!Application__c.Position__c}
+Location: {!Application__c.Location__c}
+Link to the application: {!Application__c.Link}
