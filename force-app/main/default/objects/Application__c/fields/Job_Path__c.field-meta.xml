@@ -13,7 +13,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Send Application</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>Send Application</label>
             </value>
             <value>
