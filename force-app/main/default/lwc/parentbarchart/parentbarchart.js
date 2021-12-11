@@ -4,11 +4,21 @@ export default class parentbarchart extends LightningElement {
     chartConfiguration;
     @wire(getOpportunities)
     getOpportunities({ error, data }) {
-        var resumes = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","resume10"];
+        //var resumes = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","resume10"];
         if (error) {
             this.error = error;
             this.chartConfiguration = undefined;
+            console.log("error");
         } else if (data) {
+          console.log("no error");
+          let resumes = data.resumes;
+          let dataset = data.datasets[0];
+          //console.log(data.datasets.length);
+          //console.log("dataset keys: " + dataset.keys());
+          console.log("dataset color: " + dataset.backgroundColor);
+          //console.log(error);
+         //console.log(data);
+          /*
             let chartAmtData = [];
             let chartRevData = [];
             let chartLabel = [];
@@ -17,6 +27,7 @@ export default class parentbarchart extends LightningElement {
                 chartRevData.push(opp.expectRevenue);
                 chartLabel.push(opp.stage);
             });
+            */
             this.chartConfiguration = {
                 type: 'bar',
                 // data: {
@@ -34,16 +45,27 @@ export default class parentbarchart extends LightningElement {
                 //     labels: chartLabel,
                 // },
                 // options: {
-               
+
                 // },
+
+                // 1 a list of resumes
+                // 2 a list of WrapperClasses
+
+                // var resumes = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","resume10"];
+                // var stages =
+                //
+                //
+                // step 1 : Get the list of resumes
+                // Step 2 :
+                //
                 data: {
                     labels: resumes,
                     datasets: [{
-                        label: 'Send Application',
+                        label: dataset.label,
                         backgroundColor: "#de425b",
-                        data: [10, 20, 15, 10, 12, 15, 10, 10, 15],
+                        data: [50, 20, 15, 10, 12, 15, 10, 10, 15], // list of resume stage counts
                     }, {
-                        label: 'Recruiters',
+                        label: 'Recruiterss',
                         backgroundColor: "#f58055",
                         data: [8, 18, 13, 8, 10, 13, 8, 8, 13],
                     }, {
@@ -58,12 +80,12 @@ export default class parentbarchart extends LightningElement {
                         label: 'Offer',
                         backgroundColor: "#afd07c",
                         data: [3, 2, 1, 4, 7, 9, 3, 5, 8],
-                      }, {                                             
+                      }, {
                       label: 'Background Check',
                       backgroundColor: "#64ad73",
                       data: [2, 1, 0, 2, 5, 7, 2, 1, 0],
                     }],
-                  },                
+                  },
                 options: {
                     tooltips: {
                       displayColors: true,
@@ -89,7 +111,7 @@ export default class parentbarchart extends LightningElement {
                     responsive: true,
                     maintainAspectRatio: false,
                     legend: { position: 'bottom' },
-                  }                
+                  }
             };
             console.log('data => ', data);
             this.error = undefined;
