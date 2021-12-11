@@ -19,7 +19,7 @@ export default class parentbarchart extends LightningElement {
             datasets_values.push({
                 label: dataset.label,
                 backgroundColor: dataset.backgroundColor,
-                data: [20, 10, 5], // list of resume stage counts
+                data: dataset.data, // list of resume stage counts
             });
         });
           //console.log(error);
