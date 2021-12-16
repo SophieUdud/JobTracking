@@ -12,16 +12,16 @@ public class BarChartController {
         }
         returnWrapper.resumes = resumeNames;
 
-        // prepare Map<resumeName, Map<stageName,  count>>
+        // Get stagenames
 		Schema.DescribeFieldResult fieldResult = Application__c.Job_Path__c.getDescribe();
 		List<Schema.PicklistEntry> ple = fieldResult.getPicklistValues();
-
         List<String> stageNames= new List<String>();
 		for( Schema.PicklistEntry pickListVal : ple){
             String stageName = pickListVal.getLabel();
             stageNames.add(stageName);
         }
 
+        // prepare Map<resumeName, Map<stageName,  count>> in order for later lookup to avoid query in inner loop
         Map<String, Map<String, Integer>> resume_stage_map = new Map<String, Map<String, Integer>>();
         for (ContentDocument resume : resumes) {
             //this gets all Applications + one User link! -> later it will be filtered out to only leave the applications
@@ -54,9 +54,6 @@ public class BarChartController {
 
         // Get info about each stage and append to datasetWrappers
         List<DatasetWrapper> datasetWrappers = new List<DatasetWrapper>();
-
-
-
         List<String> colors = new List<String>{'#de425b', '#f58055', '#feba65', '#fff18f', '#afd07c', '#64ad73'};
         Integer i = -1;
 		for( Schema.PicklistEntry pickListVal : ple){
@@ -76,17 +73,10 @@ public class BarChartController {
 		}
         System.debug('stageNames');
 
-
-
         DatasetWrapper dwrapper = new DatasetWrapper();
         dwrapper.label = 'Send The Apps';
         dwrapper.backgroundColor = 'de425b';
 
-        //returnWrapper.datasets = new List<DatasetWrapper>{dwrapper};
-        //List<DatasetWrapper> datasets_temp = new List<DatasetWrapper>();
-        //datasets_temp.add(dwrapper);
-        //returnWrapper.datasets = datasets_temp;
-        //datasetWrappers.add(dwrapper);
         returnWrapper.datasets = datasetWrappers;
         return returnWrapper;
     }

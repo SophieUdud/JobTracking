@@ -4,7 +4,6 @@ export default class parentbarchart extends LightningElement {
     chartConfiguration;
     @wire(getOpportunities)
     getOpportunities({ error, data }) {
-        //var resumes = ["resume1","resumes2","resume4","resume5","resume6","resume7","resume8","resume9","resume10"];
         if (error) {
             this.error = error;
             this.chartConfiguration = undefined;
@@ -12,8 +11,6 @@ export default class parentbarchart extends LightningElement {
         } else if (data) {
           console.log("no error");
           let resumes = data.resumes;
-          //let dataset = data.datasets[0];
-          //console.log("dataset color: " + dataset.backgroundColor);
           let datasets_values = [];
           data.datasets.forEach(function(dataset) {
             datasets_values.push({
@@ -22,7 +19,6 @@ export default class parentbarchart extends LightningElement {
                 data: dataset.data, // list of resume stage counts
             });
         });
-          //console.log(error);
          console.log("datasets_values =>", datasets_values);
             this.chartConfiguration = {
                 type: 'bar',
