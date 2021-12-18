@@ -1,9 +1,9 @@
 import { LightningElement, wire } from 'lwc';
-import getOpportunities from '@salesforce/apex/BarChartController.getOpportunities'; //@salesforce/apex/Namespace.Classname.apexMethodReference
+import getResumeChartInfo from '@salesforce/apex/BarChartController.getResumeChartInfo'; //@salesforce/apex/Namespace.Classname.apexMethodReference
 export default class parentbarchart extends LightningElement {
     chartConfiguration;
-    @wire(getOpportunities)
-    getOpportunities({ error, data }) {
+    @wire(getResumeChartInfo)
+    getResumeChartInfo({ error, data }) {
         if (error) {
             this.error = error;
             this.chartConfiguration = undefined;

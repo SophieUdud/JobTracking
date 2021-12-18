@@ -1,6 +1,6 @@
 public class BarChartController {
     @AuraEnabled(cacheable=true)
-    public static ReturnWrapper getOpportunities(){
+    public static ReturnWrapper getResumeChartInfo(){
 
         // Get Resumes
         List<ContentDocument> resumes = [SELECT Id, Title FROM ContentDocument];
