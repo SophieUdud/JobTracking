@@ -8,6 +8,6 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Email_reminder_about_send_application</template>
+        <template>JobTrail_Emails/Email_reminder_about_send_application</template>
     </alerts>
 </Workflow>

@@ -9,9 +9,19 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>JobTrail_Emails/Email_reminder_about_send_application</members>
+        <members>JobTrail_Emails</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>Application_Record_Page</members>
         <members>Job_Trail_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Email_alert_to_follow_up</members>
+        <members>Invocable_process_for_Applications</members>
+        <name>Flow</name>
     </types>
     <types>
         <members>Account-Hiring Company</members>
