@@ -5,7 +5,7 @@
             "default": true,
             "package": "JobTrail",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.4.NEXT"
+            "versionNumber": "0.1.5.NEXT"
         }
     ],
     "namespace": "",
@@ -22,6 +22,9 @@
         "JobTrail@0.1.2-2": "04t5e000000aPlqAAE",
         "JobTrail@0.1.3-0": "04t5e000000aPlvAAE",
         "JobTrail@0.1.3-1": "04t5e000000aQO0AAM",
-        "JobTrail@0.1.4-0": "04t5e000000aQO5AAM"
+        "JobTrail@0.1.4-0": "04t5e000000aQO5AAM",
+        "JobTrail@0.1.4-1": "04t5e000000aQZ9AAM",
+        "JobTrail@0.1.5-0": "04t5e000000aQZEAA2",
+        "JobTrail@0.1.5-1": "04t5e000000aQZJAA2"
     }
 }
